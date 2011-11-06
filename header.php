@@ -12,12 +12,6 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	<!-- ----------------------------------------------------------------------------- STYLESHEETS -->
-	<link 	rel="stylesheet" 		href="<?php echo site_url(); ?>/css/blueprint/screen.css" 	type="text/css" media="screen, projection">
-	<link 	rel="stylesheet" 		href="<?php echo site_url(); ?>/css/blueprint/print.css" 	type="text/css" media="print"> 
-	<!--[if lt IE 8]>
-	  <link rel="stylesheet" 		href="<?php echo site_url(); ?>/css/blueprint/ie.css" 		type="text/css" media="screen, projection">
-	<![endif]-->
-	<link 	rel="stylesheet" 		href="<?php echo site_url(); ?>/css/basics.css" 			type="text/css" media="screen, projection">
 	<link	rel="stylesheet/less" 	href="<?php echo site_url(); ?>/css/style.less" 			type="text/css">
 
 	<!-- ----------------------------------------------------------------------------- RSS FEED -->
@@ -27,7 +21,7 @@
 	<script src="<?php echo site_url(); ?>/js/libs/modernizr-2.0.6.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	<script>window.jQuery || document.write('/js/libs/jquery-1.6.4.min.js"><\/script>')</script>
-	<script src="<?php echo site_url(); ?>/js/libs/less-1.1.3.min.js"></script>
+	<script src="<?php echo site_url(); ?>/js/libs/less-1.1.4.min.js"></script>
 
 	<!-- ----------------------------------------------------------------------------- WP SCRIPTS -->
 	<?php wp_head(); ?>
@@ -40,7 +34,7 @@
 <body <?php body_class(Basics::body_class()); ?>>
 
 	<div id="wrap" class="container" role="document">
-		<header id="banner" role="banner">
+		<header id="banner" class="span-24" role="banner">
 			<div class="container">
 	
 				<figure clas="logo"></figure>

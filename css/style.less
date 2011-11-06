@@ -1,3 +1,45 @@
+/* ----------------------------------------------------------------------------- IMPORTS */
+
+@import 'grid.less';
+@import 'helpless.less';
+
+/* ----------------------------------------------------------------------------- NORMALIZE */
+
+#hl.normalize();
+
+/* ----------------------------------------------------------------------------- HELPERS */
+
+.visuallyhidden {
+    border: 0 none;
+    clip: rect(0pt, 0pt, 0pt, 0pt);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+	
+	.focusable:active, .focusable:focus {
+		clip: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		position: static;
+		width: auto;
+	}
+	
+}
+
+/* ----------------------------------------------------------------------------- LINKS */
+
+.button, #post-nav a, #comments-nav a {
+	display: inline-block;
+	padding: 8px 16px;
+	cursor: pointer;
+	width: auto;
+	overflow: visible;
+}
+
 /* ----------------------------------------------------------------------------- HEADER */
 
 #banner {

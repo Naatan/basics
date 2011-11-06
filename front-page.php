@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-		<div id="content">
+		<div id="content" class="span-24">
 		
-			<div id="main" role="main">
+			<div id="main" class="span-14" role="main">
 				<div class="container">
 				
 					<?php get_template_part('loop', 'page'); ?>
@@ -10,7 +10,7 @@
 				</div>
 			</div><!-- /#main -->
 			
-			<aside id="sidebar" role="complementary">
+			<aside id="sidebar" class="span-8 prepend-1" role="complementary">
 				<div class="container">
 					<?php get_sidebar(); ?>
 				</div>
